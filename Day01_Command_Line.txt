@@ -1,0 +1,49 @@
+FILE NAME	:DAY01_Command_Line
+AUTHOR		:Uqi
+
+
+DIRECTORY
+`pwd` check directory
+`man command` check manual for command
+`ls` list directory
+`ls -l` list hidden
+`ls -R` show directory up to children
+`cd` change directory
+`mkdir fileName` make directory
+`clear` | {cmd+k} clear
+`rmdir directoryName` delete emppy directory
+`rm -rf directoryName` force delete
+
+FILE BASIC
+`touch $fileName` create file
+`nano $fileName` open/craete file if doesn't exist
+`cat $fileName` show content in terminal
+`echo "Strings">fileName.txt` create file with content
+`echo "more Strings">>fileName.txt` add new line in fileName.txt
+`head -n location/fileName` show n first lines
+`tail -n location/fileName` show n last lines
+`grep text` highligh text in a terminal
+
+FILE OPERATION
+`unzip zipFile` unzip
+`rm fileName` remove fileName
+`cp source/fileName destination/` copy file
+`mv source/fileName destination/fileRenamed` move and rename file
+`find location -name fileName` find fileName in location
+
+PERMISSION
+"every file has permissions to: write, read, execute"
+"use `ls -l` to show the permissions"
+"showed as 'd/- rwxrwxrwx'"
+"value r=4 w=2 x=1"
+`chmod values fileName` values=Owner_value Group_value OtherUser_value
+`chmod 633 fileName`
+
+PIPING
+`command_1 | .. | command_2`
+`find . -name fileName.txt | xargs cat | grep text`
+
+PROCESS STATUS
+`ps` display online process
+`ps -ax` shows all process
+
