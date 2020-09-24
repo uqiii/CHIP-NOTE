@@ -1,0 +1,27 @@
+FILE NAME	:DAY01_Version_Control
+AUTHOR		:Uqi
+
+GIT BASIC
+`git init` initialize/create a folder to be a directory
+`git config --global --list` show configuration for global
+`git config --local --list` show local configuration
+`git config --global user.name "name"` set username
+
+`git status`
+`git add fileName fileName1` add files to staging area
+`git add .` add all files
+`git commit -m "message"` commit all file in staging area
+
+GIT LOG
+`git log` show all commits
+`git log --oneline` show simplified commits
+`glog` | `git log --oneline --decorate --graph` display branch tree
+`git checkout commit_id` checkout to targeted commit
+`git chekout branch_name` switch branch
+
+GIT REMOTE
+`git clone remote_url` clone
+`git clone remote_url folder_name` clone into a folder
+`git pull origin branch_name`
+`git push origin branch_name`
+
