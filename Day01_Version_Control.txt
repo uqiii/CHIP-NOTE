@@ -12,6 +12,13 @@ GIT BASIC
 `git add .` add all files
 `git commit -m "message"` commit all file in staging area
 
+GIT BRANCH
+`git branch` show branches
+`git branch branch_name` create new branch
+'git checkout -b branch_name` create nre branch and checkout
+`git branch -d branch_name` delete branch
+`git branch -D branch_name` force delete
+
 GIT LOG
 `git log` show all commits
 `git log --oneline` show simplified commits
