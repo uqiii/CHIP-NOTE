@@ -1,5 +1,5 @@
-FILE NAME	:DAY01_Version_Control
-AUTHOR		:Uqi
+FILE 	:DAY01_Version_Control
+AUTHOR	:23 SEP 2020
 
 GIT BASIC
 `git init` initialize/create a folder to be a directory

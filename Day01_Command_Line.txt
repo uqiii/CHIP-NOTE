@@ -1,5 +1,5 @@
-FILE NAME	:DAY01_Command_Line
-AUTHOR		:Uqi
+FILE	:DAY01_Command_Line
+DATE	:23 SEP 2020
 
 
 DIRECTORY
