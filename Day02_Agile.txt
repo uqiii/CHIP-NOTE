@@ -62,6 +62,9 @@ Estimatable - the team must be able to estimate the story.
 Small - user stories should be small enough to fit in a sprint; large stories are hard to estimate and plan.
 Testable - ensure what is being developed can be verified and tested adequately.
 
+------------------------------------------------------------------------------------------------------------------------
+
+THE SQUAD
 What is Squad? A small group of people with characteristics:
 1. Small (3 to 9 people excluding Product Owner & Scrum Master)
 2. Cross-functional and includes all the skills required
@@ -85,3 +88,75 @@ Team Member (Dev & Tester)
 2. Responsible to code quality, simplicity and maintainability.
 3. Helping co-members
 4. Self-organizing, self-managing and cross-functional
+
+------------------------------------------------------------------------------------------------------------------------
+
+USER STORY
+"is a small piece of work that represent some value
+to an end user and can delivered during a sprint"
+Aim: put end user in the center of conversation and
+     capture product functionality from their perspective
+
+User of Costumer -> User Story -> Product
+
+
+User Story Format (Created by PO):
+As a (type of user),
+I want to (perform some action)
+so that I )can achieve some goal/result/value).
+
+Example:
+As a Customer who has booked a flight
+I want to cancel my flight booking
+So that I can get a refund and make other plans
+
+Good User Stories
+Should be: Independent, Negotiable, Valuable, Estimatable, Small, Testable
+
+The 3C's
+1. Card : to get conversation between PO and Team Members
+2. Conversation : clearing, detailing, surfacing issues
+3. Confirmation : PO and Dev Team identify confirmations for each User Story
+
+EPIC
+"is a user stories start out very big, with limited detail."
+the Scrum team split EPIC into smaller, more detailed User Stories in Product Backlog reinement (grooming).
+
+------------------------------------------------------------------------------------------------------------------------
+
+USER ACCEPTANCE CRITERIA (UAC)
+"is a set of accepted condition or business rules which the functionality
+or feature should satisfy and meet, in order to be accepted by the Product owner/Stakeholders."
+
+Format:
+Given <context>
+When <action>
+Then <expected result>
+
+Example:
+Given Customer already in search flight screen, input date
+and destination.
+When She click search button
+Then the system will show list of available flight
+
+Given Customer already in search flight screen, with input date blank.
+When She click search button
+Then the system will error "Please input date"
+
+------------------------------------------------------------------------------------------------------------------------
+
+DEFINITION OF DONE
+"is a list of requirements that user story must adhere to for the team to call it complete."
+
+Example:
+1. Code complete and chcked in
+2. Code reviewed
+3. Unit tests automated and passing
+4. Functional tests automated and passing
+5. System documentation updated
+6. User documentation updated
+7. No priority 1 or priority 2 defects
+8. Accepted by PO
+
+------------------------------------------------------------------------------------------------------------------------
+
