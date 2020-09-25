@@ -1,0 +1,87 @@
+FILE	:DAY02_AGILE
+DATE	:25 SEP 2020
+
+AGILE is a Mindset
+
+RESPECT / COLLABORATION / IMPROMEVENT & LEARNING /
+PRIDE IN OWNERSHIP / FOCUS IN DELIVERING VALUE /
+ADAPT TO CHANGES
+
+VALUES
+Communication / Feedback / Simplicity / Courage
+
+"Communication leads to valuable Feedback which
+promotes Simplocity that allows for Courage to change"
+
+Individuals and Interaction > Processes and Tools
+Working Software > Comprehensive Documentation
+Customer Collaboration > Contract Negotiation
+Responding to Change > Following a Plan
+
+AGILE PRINCIPLES
+1. Customer Satisfication
+2. Changing Requirements
+3. Frequent Delivery
+4. Measure of Progress
+5. Sustainable Development
+6. Close Cooperation
+7. Motivated Individuals
+8. Face-to-face Conversation
+9. Technical Excellence
+10. Simplicity
+11. Self-organizing Teams
+12. Regular Adaptation
+
+AGILE FRAMEWORK ADOPTION IN BTPN
+Scrum / XP / Lean
+
+AGILE vs WATRERFALL
+Waterfall : Requirements -> Design -> Develop -> Test -> Values
+Agile     : Sprint -> Value -> Sprint -> Value -> Sprint -> Value
+
+DELIVERY PROCESS
+PO brings Sprint Backlog -> Spring Planning -> Daily Cycle ->
+Product Increment -> Sprint Review -> Sprint Retrospective ->
+Update Product Backlog
+
+USER STORIES
+As a <role>
+I want <goal>
+So that <benefit>
+
+Acceptance citeria:
+Given <context>
+When <action>
+Then <expected result>
+
+Stories should:
+Independent - user stories should not depend on each other so they can be developed in any order.
+Negotiable - Avoid too much detail; keep them flexible so the team can adjust how much of hte story to implement
+Valuable - the story should provide some value to its users.
+Estimatable - the team must be able to estimate the story.
+Small - user stories should be small enough to fit in a sprint; large stories are hard to estimate and plan.
+Testable - ensure what is being developed can be verified and tested adequately.
+
+What is Squad? A small group of people with characteristics:
+1. Small (3 to 9 people excluding Product Owner & Scrum Master)
+2. Cross-functional and includes all the skills required
+3. Autonomy to make decisions, manage itself and strictly accountable for delivery on the agreed Responsibilities
+
+Product Owner (PO)
+1. Representing the business in the squad
+2. Provides vision, strategy & direction for the product. Understand the big picture of things, and able to communicate the same.
+3. Able to clarify enough details needed
+4. Prioritize item in Backlog and Optimizing the value of the work the Development
+
+Scrum Master (SM)
+1. bring about agility in the squads
+2. along with PO, responsible for helping managing scope and related stakeholders, handle dependencies, ensuring no blockers to development process.
+3. understand the urgency and value of the business
+4. Facilitating ceremonies in the squad.
+5. Coaches both the Dev & Tester
+
+Team Member (Dev & Tester)
+1. pick up stories
+2. Responsible to code quality, simplicity and maintainability.
+3. Helping co-members
+4. Self-organizing, self-managing and cross-functional
