@@ -160,3 +160,21 @@ Example:
 
 ------------------------------------------------------------------------------------------------------------------------
 
+Tryout
+
+
+UQI
+
+As a birthday party organizer
+I want to prepare supply price list
+So that I could approximate the budget
+
+Given supply price list with price option: 1000, 2000, 3000
+When customer choose the option: 1000
+Then the budget is 1000
+
+Given supply price list with price option: 1000, 2000, 3000
+When customer doesn’t choose any option
+Then budget is 2000 (average price)
+
+
