@@ -1,0 +1,60 @@
+UNIT TESTING
+
+"is a software testing method"
+
+-----------
+
+UPDATE TO JUnit 5 DEPENDENCY
+
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-engine</artifactId>
+    <version>5.6.2</version>
+    <scope>test</scope>
+</dependency>
+
+----------
+
+FILE NAMING
+
+**/*Test.java
+
+-------
+
+TEST COVERAGE
+
+is a measure used to describe the degree to which the source code of program is execute when particular test suite runs.
+measured as percentage
+
+Add Jacoco plugin
+
+<plugin>
+  <groupId>org.jacoco</groupId>
+  <artifactId>jacoco-maven-plugin</artifactId>
+  <version>0.8.5</version>
+</plugin>
+
+"add after pluginManagement"
+`mvn clean jacoco:prepare-agent test jacoco:report`
+"open coverage in target/site/jacoco/index.html"
+
+To execute automatically, add
+
+<execution>
+ <goals>
+  <goal>prepare-agent</goal>
+ </goals>
+</execution>
+<execution>
+ <id>report</id>
+ <phase>test</phase>
+ <goals>
+  <goal>report</goal>
+ </goals>
+</execution>
+
+"report will runs after test"
+`mvn clean test` runs same as before
+
+--------
+
