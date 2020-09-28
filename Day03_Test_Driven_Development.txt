@@ -7,4 +7,21 @@ Refactor - Refactor; do cleaning, makes the code better
 Cycle
 Red -> Green -> Refactor -> Red -> Green -> ....
 
+
+----------------------------------------------------------------------------------------------------
+
+TEST METHOD
+
+@Test
+public void testName(){
+ Person person = new Person();
  
+ String actualResult = person.speak("Ranu");
+
+ Assertions.assertEquals("Hello Ranu", actualResult);
+} 
+
+"Create methods for every case"
+
+----------------------------------------------------------------------------------------------------
+

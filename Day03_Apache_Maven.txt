@@ -22,7 +22,8 @@ mvn archetype:generate -DgroupId=com.btpn.chip
 MAVEN STANDARD PROJECT STRUCTURE
 
 1. POM
-2. 
+2. Source Code Application
+3. Source Code Test 
 
 -------
 
