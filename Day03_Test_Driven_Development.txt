@@ -1,0 +1,10 @@
+TTD Mantra
+
+Red - Test Fails; test means to be failed at first
+Green - test Passes; write minimum implementation to make the test pass
+Refactor - Refactor; do cleaning, makes the code better
+
+Cycle
+Red -> Green -> Refactor -> Red -> Green -> ....
+
+ 

@@ -1,0 +1,36 @@
+APACHE MAVEN
+"is a software management and comprehension tool"
+
+MAIN FEATURES
+1. Build-Tool
+2. Dependency Management Tool
+3. Documentation Tool
+
+---------
+
+MAVEN PROJECT CREATION
+mvn archetype:generate -DgroupId=com.btpn.chip
+-DartifactId=maven-exercise
+-DarchetypeArtifactId=maven-archetype-quickstart
+-DarchetypeVersion=1.4
+-DinteractiveMode=false
+
+"NOTE!: replace `enter` to ` ` "
+" `control+C` to abort"
+------------------------
+
+MAVEN STANDARD PROJECT STRUCTURE
+
+1. POM
+2. 
+
+-------
+
+COMMIN LIFECYCLE PHASES OF MAVEN
+
+1. clean - cleans up artifacts created by prior builds
+2. compile -compile source code
+3. test 
+4. package
+5. install
+
