@@ -56,5 +56,19 @@ To execute automatically, add
 "report will runs after test"
 `mvn clean test` runs same as before
 
+
+Exclude files from test
+
+add this after executions
+
+<configuration>
+ <excludes>
+  <exclude>**/App.class</exclude>
+ </excludes>
+</configuration>
+
+
+
 --------
+
 
