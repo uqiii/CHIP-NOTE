@@ -32,6 +32,12 @@ Object object = laptop;
 
 --------------------------------------------------------------------------------------------------
 
+4 rules of simple design
+1. Pass All Tests / It Works
+2. Reveals Intention / Readable
+3. Don’t repeat yourself / No duplication
+4. Keep it small / Fewer element
+
 Naming Convention:
 1. English
 2. No abbreviation
@@ -54,3 +60,13 @@ Visual Studio Code Shortcut
 `shift + option + f` formatting
 
 ----------------------------------------------------------------------------------------------------------------------------------
+
+Factory Method
+"A method that returns an object"
+
+Example:
+public static Object createObject(){
+ return new Object();
+}
+
+---------------------------------------------------------------------------------------------------------------------------------- 
