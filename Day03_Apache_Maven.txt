@@ -9,11 +9,7 @@ MAIN FEATURES
 ---------
 
 MAVEN PROJECT CREATION
-mvn archetype:generate -DgroupId=com.btpn.chip
--DartifactId=maven-exercise
--DarchetypeArtifactId=maven-archetype-quickstart
--DarchetypeVersion=1.4
--DinteractiveMode=false
+mvn archetype:generate -DgroupId=com.btpn.chip -DartifactId=maven-exercise -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
 
 "NOTE!: replace `enter` to ` ` "
 " `control+C` to abort"
