@@ -1,0 +1,56 @@
+Object Oriented Programming
+"is a programming model that organizes software esign around data, or object rather than functions and logic."
+
+Benefits:
+1. Modular
+2. Maintainable
+3. Re-usable
+4. Readable
+5. It Works
+
+4 Pilars:
+1. Abstraction : "show" only essentials attribute and "hide" unnecessary information.
+2. Encapsulation : bundling data and that work in that data within one unit
+3. Polymorphism : is the ability of an object to take on many forms
+4. Inheritance : mechanism where u can o derive a class rom another class
+
+Which Pillar is the Most Important?
+ENCAPSULATION -> maintain/secure the object
+
+--------------------------------------------------------------------------------------------------
+
+Polymorphism
+
+public interface Electronic {}
+public class Computer {}
+public class Laptop extends Computer implements Electronic {}
+
+Laptop laptop = new Laptop ();
+Computer computer = laptop;
+Electronic electronic = laptop;
+Object object = laptop;
+
+--------------------------------------------------------------------------------------------------
+
+Naming Convention:
+1. English
+2. No abbreviation
+3. Avoid `get`
+4. Avoid noun, use verb instead
+5. Consistent
+
+Ways to  remove duplication:
+1. Inheritance
+2. Overloading Constructor
+3. Abstract Class
+4. Factory Method
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Visual Studio Code Shortcut
+
+`shift + option + down` copy & paste
+`fn + f2` rename
+`shift + option + f` formatting
+
+----------------------------------------------------------------------------------------------------------------------------------
